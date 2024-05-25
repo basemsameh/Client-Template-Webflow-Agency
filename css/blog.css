@@ -1,0 +1,96 @@
+/* blog */
+.blog .blog-heading {
+  width: 90%;
+  max-width: 950px;
+  text-align: center;
+  margin: 110px auto 20px;
+}
+
+.blog .blog-heading h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.blog .blog-heading p {
+  color: var(--para);
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.blog .blog-body {
+  text-align: center;
+}
+
+.blog .blog-body .work-img {
+  background-image: url(../images/pexels-fauxels-3182763.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 477px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 50px auto 0;
+}
+
+.blog .blog-body p {
+  max-width: 830px;
+  margin: 50px auto 20px;
+}
+
+.blog .blog-body a {
+  text-decoration: none;
+}
+
+/* Our Blog Section */
+.our-blog {
+  margin: 50px 0;
+}
+
+.our-blog h2 {
+  width: fit-content;
+  margin: auto;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.our-blog .container {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.our-blog .container .card {
+  max-width: 405px;
+  margin-bottom: 40px;
+  border: none;
+}
+
+.our-blog .container .card .card-body {
+  padding: 20px 0 0 0 ;
+}
+
+.our-blog .container .card .card-body p {
+  opacity: 0.7;
+  line-height: 28px;
+}
+
+.our-blog .container .card .card-body h6 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.our-blog .container .card .card-body .card-text {
+  margin: 20px 0;
+}
+
+.our-blog .container .card .card-body a {
+  text-decoration: none;
+  color: #1C1E53;
+  font-weight: 500;
+}
+
+.our-blog .container .card .card-body a:hover {
+  color: #2405F2;
+}

@@ -1,0 +1,254 @@
+.pricing-heading {
+  text-align: center;
+  width: 90%;
+  max-width: 562px;
+  margin: 100px auto 50px;
+}
+
+.pricing-heading h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.pricing-heading p {
+  opacity: 0.7;
+  line-height: 28px;
+}
+
+/* Prices Section */
+.prices .container {
+  width: 90%;
+  margin: auto;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.prices .container .price {
+  max-width: 400px;
+  margin: 20px 0;
+  border-radius: 12px;
+  background-color: #f4f6fc;
+  padding: 80px 40px;
+}
+
+.prices .container .price-2 {
+  background-color: #1c1e53;
+  color: var(--white);
+  background-image: radial-gradient(
+    circle 800px at top,
+    #ffffff0f 70%,
+    #1c1e53 70%
+  );
+}
+
+.prices .container .price .amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.prices .container .price-2 .amount {
+  max-width: 220px;
+}
+
+.prices .container .price-3 .amount {
+  max-width: 240px;
+}
+
+.prices .container .price .amount h3 {
+  font-size: 38px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 220px;
+}
+
+.prices .container .price .amount p {
+  color: #2405f2;
+  font-size: 16px;
+}
+
+.prices .container .price-2 .amount p {
+  color: #fcd980;
+}
+
+.prices .container .price h6 {
+  font-weight: 400;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.prices .container .price .month {
+  max-width: 280px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.prices .container .price ul {
+  list-style: none;
+  position: relative;
+  left: -30px;
+  margin: 50px 0 70px;
+}
+
+.prices .container .price ul li {
+  margin: 20px 0;
+}
+
+.prices .container .price ul li i {
+  margin-right: 5px;
+  color: #97daad;
+  font-size: 22px;
+}
+
+.prices .container .price-1 ul li:nth-last-of-type(1) i,
+.prices .container .price-1 ul li:nth-last-of-type(2) i {
+  color: #a8aab0;
+}
+
+.prices .container .price button {
+  margin: auto;
+  padding: 15px 51px;
+  width: 100%;
+  height: 65px;
+}
+
+.prices .container .price-2 button {
+  background-color: #fcd980;
+  color: var(--black);
+}
+
+.prices .container .price-2 button:hover {
+  background-color: var(--white);
+  border: 1px solid var(--black);
+}
+
+/* FAQ Section */
+.faq {
+  margin: 100px 0;
+}
+
+.faq .container {
+  width: 90%;
+  max-width: 1280px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.faq .heading {
+  margin-bottom: 30px;
+  width: 90%;
+  text-align: center;
+  /* max-width: 411px; */
+}
+
+.faq .heading h2 {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.faq .heading span {
+  color: #2405f2;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* FAQ Content */
+.faq .faq-content {
+  width: 90%;
+  margin: auto;
+  /* max-width: 844px; */
+}
+
+.faq .faq-content ol {
+  list-style: none;
+  width: 100%;
+  position: relative;
+  left: -40px;
+}
+
+.faq .faq-content ol li {
+  padding: 20px 5px;
+  border-bottom: 1px solid #c2bbffb2;
+}
+
+/* Question */
+.faq .faq-content .question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.faq .faq-content .question h6 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.faq .faq-content .question h6 span {
+  color: #2405f2;
+  margin-right: 5px;
+}
+
+.faq .faq-content .show {
+  background-color: inherit;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.faq .faq-content .card {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 624px;
+  border: none;
+  padding: 0 0 0 35px;
+}
+
+.faq .faq-content .question .btn {
+  border: none;
+  color: var(--black);
+  font-size: 22px;
+  width: fit-content;
+}
+
+.faq .faq-content .question .btn i {
+  transition: all 0.2s linear 0s;
+  transform: rotate(0deg);
+}
+
+.faq .faq-content .question .active i {
+  transition: all 0.2s linear 0s;
+  transform: rotate(45deg);
+}
+
+@media (min-width: 475px) {
+  .prices .container .price {
+    padding: 80px 60px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .faq .faq-content ol {
+    left: 0;
+  }
+
+  .faq .faq-content {
+    margin: 0;
+    max-width: 844px;
+  }
+
+  .faq .heading {
+    text-align: left;
+    max-width: 411px;
+  }
+}

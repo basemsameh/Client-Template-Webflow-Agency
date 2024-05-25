@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --bg-nav: #1c1e53;
+  --color: #bbbbcb;
+  --black: #000;
+  --white: #fff;
+  --para: #282938;
+  --form: #f4f6fc;
+}
+
+/* Contact */
+.contact .title {
+  width: fit-content;
+  max-width: 560px;
+  padding: 0 10px;
+  margin: 110px auto 20px;
+  text-align: center;
+}
+
+.contact .title h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.contact .title p {
+  line-height: 28px;
+  color: var(--para);
+}
+
+.contact form {
+  background-color: var(--form);
+  width: 90%;
+  padding: 50px 0;
+  margin: 100px auto;
+  max-width: 1020px;
+  border-radius: 12px;
+}
+
+.contact form .form-content {
+  width: 100%;
+  max-width: 910px;
+  margin: auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact form .form-content div {
+  max-width: 438px;
+  margin: 10px 0;
+}
+
+.contact form .form-content .msg {
+  max-width: 100%;
+  width: 100%;
+}
+
+.contact form .form-content .msg textarea {
+  padding: 18px 32px;
+  height: 138px;
+  resize: none;
+}
+
+.contact form div .form-label {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact form div .form-control {
+  background-color: inherit;
+  padding: 10px 15px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.contact form div .form-control::placeholder {
+  color: var(--black);
+}
+
+.contact form .form-content .btn-dark {
+  width: 255px;
+  height: 65px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 630px) {
+  main form .form-content div {
+    width: 48%;
+  }
+}

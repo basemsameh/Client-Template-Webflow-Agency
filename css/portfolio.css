@@ -1,0 +1,120 @@
+/* Portfolio Section */
+.portfolio {
+  height: 416px;
+  text-align: center;
+  background-color: #f4f6fc;
+  display: grid;
+  place-items: center;
+}
+
+.portfolio .container {
+  width: 90%;
+  margin: auto;
+  max-width: 733px;
+  height: 224px;
+}
+
+.portfolio .container p {
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+}
+
+.portfolio .container h2 {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.portfolio .container .social-links {
+  width: 147.53px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Our Work */
+.our-work .container {
+  max-width: 1280px;
+  margin: 100px auto;
+}
+
+.our-work .container .categories {
+  margin: auto;
+  max-width: 473px;
+}
+
+.our-work .container .categories ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.our-work .container .categories ul li:hover {
+  cursor: pointer;
+  color: #2405f2;
+}
+
+.our-work .container .categories ul li.active {
+  color: #2405f2;
+}
+
+/* Templates */
+.our-work .templates {
+  margin: 30px auto;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.our-work .templates .card {
+  max-width: 610px;
+  margin-bottom: 40px;
+  border: none;
+}
+
+.our-work .templates .card figure {
+  text-align: center;
+  max-width: 100%;
+}
+
+.our-work .templates .card figure img {
+  max-width: 100%;
+  max-height: 317px;
+}
+
+.our-work .templates .card .card-body {
+  padding: 20px 0 0 0;
+}
+
+.our-work .templates .card .card-body p {
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.our-work .templates .card .card-body h3 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+
+.our-work .templates .card .card-body .card-text {
+  margin: 20px 0;
+}
+
+.our-work .templates .card .card-body a {
+  text-decoration: none;
+  color: #1c1e53;
+  font-weight: 500;
+}
+
+.our-work .templates .card .card-body a:hover {
+  color: #2405f2;
+}

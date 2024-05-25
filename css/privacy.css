@@ -1,0 +1,52 @@
+/* Privacy */
+.privacy .title {
+  width: fit-content;
+  max-width: 560px;
+  padding: 0 10px;
+  margin: 110px auto 20px;
+  text-align: center;
+}
+
+.privacy .title h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.privacy .title p {
+  line-height: 28px;
+  color: var(--para);
+}
+
+.privacy .privacy-content {
+  width: fit-content;
+  max-width: 840px;
+  margin: auto;
+  padding: 0 10px;
+  color: var(--para);
+}
+
+.privacy .privacy-content h3 {
+  font-size: 38px;
+  font-weight: 600;
+  margin: 50px 0;
+}
+
+.privacy .privacy-content p {
+  line-height: 28px;
+}
+
+.privacy .privacy-content p span {
+  color: #2405f2;
+  text-decoration: none;
+}
+
+.privacy .privacy-content ul {
+  margin: 20px 0;
+}
+
+.privacy .privacy-content ul li {
+  list-style-position: outside;
+  position: relative;
+  left: -15px;
+  margin: 10px 0;
+}

@@ -1,0 +1,72 @@
+/* Community */
+.community .community-heading {
+  width: 90%;
+  max-width: 950px;
+  text-align: center;
+  margin: 110px auto 20px;
+}
+
+.community .community-heading h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.community .community-heading p {
+  color: var(--para);
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.community .community-body .work-img {
+  background-image: url(../images/pexels-fauxels-3182763.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 477px;
+  width: 100%;
+  max-width: 1280px;
+  margin: 50px auto 0;
+}
+
+.community .community-body .content {
+  width: fit-content;
+  max-width: 840px;
+  margin: auto;
+  padding: 0 10px;
+  color: var(--para);
+}
+
+.community .community-body .content h3 {
+  font-size: 38px;
+  font-weight: 600;
+  margin: 50px 0;
+}
+
+.community .community-body .content p {
+  line-height: 28px;
+}
+
+.community .community-body .content p span {
+  color: #2405f2;
+  text-decoration: none;
+}
+
+.community .community-body .content ul {
+  margin: 20px 0;
+}
+
+.community .community-body .content ul li {
+  list-style-position: outside;
+  position: relative;
+  left: -15px;
+  margin: 10px 0;
+}
+
+.community .community-body .content figure {
+  background-image: url(../images/pexels-fauxels-3184418.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 840px;
+  height: 311px;
+  margin-top: 50px;
+}
